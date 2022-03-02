@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <title>Batman Name Generator</title>
+  </head>
+
+  <body>
+    <h1 class="pageTitle text-center">The Batman Text Generator</h1>
+
+    <main>
+      <section class="inputHolder">
+        <input id="input" type="text" />
+        <button id="create">Create</button>
+      </section>
+      <div class="result">
+        <div class="resultButtons">
+          <button class="primary-btn editBtn">Edit</button>
+          <button class="primary-btn downloadBtn">Download</button>
+        </div>
+        <!-- <div id="capture">
+          <h1 class="title">The Batman</h1>
+        </div> -->
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Built by <a href="https://samippoudel.com.np">Samip Poudel</a>
+        © 2022
+      </p>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"
+      integrity="sha512-01CJ9/g7e8cUmY0DFTMcUw/ikS799FHiOA0eyHsUWfOetgbx/t6oV4otQ5zXKQyIrQGTHSmRVPIgrgLcZi/WMA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"
+      integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
